@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 Telemetry Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>F1 Telemetry Dashboard</h1>
+  <div class="dashboard">
+    <div class="dial-container">
+      <h2>Speed</h2>
+      <div class="dial" id="speed-dial"><div class="needle" id="speed-needle"></div></div>
+    </div>
+    <div class="dial-container">
+      <h2>RPM</h2>
+      <div class="dial" id="rpm-dial"><div class="needle" id="rpm-needle"></div></div>
+    </div>
+    <div class="tire-info">
+      <h2>Tire Temp</h2>
+      <div class="indicator" id="temp-indicator"></div>
+      <h2>Tire Wear</h2>
+      <div class="indicator" id="wear-indicator"></div>
+    </div>
+    <div class="stopwatch">
+      <h2>Stopwatch</h2>
+      <div class="stopwatch-display" id="stopwatch">00:00:00</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
